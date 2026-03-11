@@ -81,24 +81,20 @@ export default function HeroSection() {
               AI-Native Product Leader
             </p>
 
-            <h1 className="font-display text-5xl sm:text-6xl md:text-8xl font-extrabold text-mint-white tracking-tight mb-6 leading-none">
-              BALAJI
-            </h1>
-
             <p className="text-lg sm:text-xl text-warm-beige max-w-xl mb-10 leading-relaxed">
               12 months. 7 stages of learning. 13 prototypes built. Exploring how AI reshapes what it means to build products.
             </p>
 
             {/* Stats bar */}
-            <div className="flex items-center gap-6 sm:gap-10 mb-12 flex-wrap justify-center lg:justify-start">
+            <div className="flex items-start gap-6 sm:gap-10 mb-12 flex-wrap justify-center lg:justify-start">
               {[
                 { value: '12', label: 'Months' },
-                { value: '7', label: 'Stages of Learning' },
+                { value: '7', label: 'Stages of\u00A0Learning' },
                 { value: '13', label: 'Prototypes Built' },
               ].map(({ value, label }) => (
-                <div key={label} className="text-center lg:text-left">
+                <div key={label} className="text-center w-20">
                   <div className="font-display text-3xl sm:text-4xl font-extrabold text-steel-teal">{value}</div>
-                  <div className="font-mono text-xs uppercase tracking-widest text-mint-white/40 mt-1">{label}</div>
+                  <div className="font-mono text-xs uppercase tracking-widest text-mint-white/40 mt-1 leading-tight">{label}</div>
                 </div>
               ))}
             </div>

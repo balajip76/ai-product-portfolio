@@ -18,7 +18,7 @@ export default function JourneySection() {
         {/* Timeline */}
         <div className="relative">
           {/* Desktop center line */}
-          <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-5 bottom-5 w-px bg-steel-teal/20" />
+          <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-5 bottom-5 w-0.5 bg-steel-teal/60" />
 
           {journeyStages.map((stage, i) => (
             <JourneyCard key={stage.id} stage={stage} isLeft={i % 2 === 0} />

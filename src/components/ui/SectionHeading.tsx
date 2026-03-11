@@ -10,7 +10,7 @@ export default function SectionHeading({ overline, title, subtitle, light = fals
   return (
     <div className={center ? 'text-center' : ''}>
       {overline && (
-        <p className={`font-mono text-xs uppercase tracking-widest mb-3 ${light ? 'text-steel-teal' : 'text-steel-teal-dark'}`}>
+        <p className={`font-mono text-xs uppercase tracking-widest mb-3 ${light ? 'text-steel-teal' : 'text-charcoal'}`}>
           {overline}
         </p>
       )}
@@ -18,7 +18,7 @@ export default function SectionHeading({ overline, title, subtitle, light = fals
         {title}
       </h2>
       {subtitle && (
-        <p className={`text-lg max-w-2xl ${center ? 'mx-auto' : ''} ${light ? 'text-mint-white/70' : 'text-charcoal-light'}`}>
+        <p className={`text-lg max-w-2xl ${center ? 'mx-auto' : ''} ${light ? 'text-mint-white/70' : 'text-charcoal'}`}>
           {subtitle}
         </p>
       )}

@@ -11,6 +11,7 @@ export default function LearningsSection() {
             overline="Key Takeaways"
             title="What 12 Months Taught Me"
             subtitle="Hard-won insights from shipping with AI every week."
+            light
             center
           />
         </div>

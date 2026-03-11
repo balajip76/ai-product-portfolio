@@ -31,7 +31,7 @@ export default function Navbar() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
             className="flex items-center gap-2.5 hover:opacity-80 transition-opacity"
           >
-            <Image src="/logo.png" alt="Balaji" width={36} height={36} className="rounded-full" />
+            <Image src="/logo.png" alt="Balaji" width={36} height={36} className="rounded-lg" />
             <span className="font-display font-extrabold text-lg tracking-widest text-mint-white">BALAJI</span>
           </a>
 
@@ -67,7 +67,7 @@ export default function Navbar() {
           <div className="absolute top-0 right-0 bottom-0 w-72 bg-charcoal-darker border-l border-white/10 flex flex-col">
             <div className="flex items-center justify-between px-6 h-16 border-b border-white/10">
               <div className="flex items-center gap-2.5">
-                <Image src="/logo.png" alt="Balaji" width={30} height={30} className="rounded-full" />
+                <Image src="/logo.png" alt="Balaji" width={30} height={30} className="rounded-lg" />
                 <span className="font-display font-extrabold tracking-widest text-mint-white">BALAJI</span>
               </div>
               <button onClick={() => setOpen(false)} className="text-mint-white/70 hover:text-steel-teal transition-colors" aria-label="Close menu">

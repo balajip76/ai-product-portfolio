@@ -1,13 +1,13 @@
 import { MethodologySlug } from '@/types';
 
 const badgeStyles: Record<MethodologySlug, string> = {
-  'ai-exploration': 'bg-charcoal-light text-mint-white',
-  'vibe-coding': 'bg-dusty-mauve text-white',
-  'structured-learning': 'bg-charcoal text-mint-white',
-  'ai-orchestration': 'bg-steel-teal text-white',
-  'spec-driven': 'bg-charcoal-dark text-mint-white',
-  'bmad-method': 'bg-warm-beige-dark text-white',
-  'agent-teams': 'bg-dusty-mauve-dark text-white',
+  'ai-exploration':      'bg-charcoal-light/30 text-mint-white/80',
+  'vibe-coding':         'bg-dusty-mauve/30 text-warm-beige-dark',
+  'structured-learning': 'bg-steel-teal/25 text-steel-teal-light',
+  'ai-orchestration':    'bg-steel-teal/40 text-mint-white',
+  'spec-driven':         'bg-warm-beige/20 text-mint-white/80',
+  'bmad-method':         'bg-warm-beige-dark/30 text-mint-white/80',
+  'agent-teams':         'bg-charcoal/50 text-mint-white',
 };
 
 interface MethodologyBadgeProps {
