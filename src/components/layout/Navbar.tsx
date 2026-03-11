@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { MenuIcon, CloseIcon } from '@/components/icons';
 
 const navLinks = [
@@ -28,9 +29,10 @@ export default function Navbar() {
           <a
             href="#"
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-            className="font-display font-extrabold text-xl tracking-widest text-mint-white hover:text-steel-teal transition-colors"
+            className="flex items-center gap-2.5 hover:opacity-80 transition-opacity"
           >
-            BALAJI
+            <Image src="/logo.png" alt="Balaji" width={36} height={36} className="rounded-full" />
+            <span className="font-display font-extrabold text-lg tracking-widest text-mint-white">BALAJI</span>
           </a>
 
           {/* Desktop links */}
@@ -64,7 +66,10 @@ export default function Navbar() {
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setOpen(false)} />
           <div className="absolute top-0 right-0 bottom-0 w-72 bg-charcoal-darker border-l border-white/10 flex flex-col">
             <div className="flex items-center justify-between px-6 h-16 border-b border-white/10">
-              <span className="font-display font-extrabold tracking-widest text-mint-white">BALAJI</span>
+              <div className="flex items-center gap-2.5">
+                <Image src="/logo.png" alt="Balaji" width={30} height={30} className="rounded-full" />
+                <span className="font-display font-extrabold tracking-widest text-mint-white">BALAJI</span>
+              </div>
               <button onClick={() => setOpen(false)} className="text-mint-white/70 hover:text-steel-teal transition-colors" aria-label="Close menu">
                 <CloseIcon className="w-6 h-6" />
               </button>

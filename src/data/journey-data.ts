@@ -17,8 +17,8 @@ export const journeyStages: JourneyStage[] = [
     title: 'Vibe Coding',
     period: 'Mid 2025',
     description:
-      'Jumped in head-first — prompting AI to write entire apps with minimal code knowledge. Shipped 7 apps in weeks. Learned what AI can do when you just describe what you want.',
-    tools: ['Cursor', 'v0', 'Replit', 'Vercel', 'GitHub Copilot'],
+      'Jumped in head-first — prompting AI to write entire apps with minimal code knowledge. Shipped 7 prototypes in weeks. Learned what AI can do when you just describe what you want.',
+    tools: ['Lovable', 'Cursor', 'Vercel', 'GitHub Copilot'],
     hasApps: true,
     appCount: 7,
   },
@@ -39,7 +39,7 @@ export const journeyStages: JourneyStage[] = [
     period: 'Late 2025',
     description:
       'Moved from single-prompt apps to multi-step AI workflows. Built apps where AI agents collaborate, hand off context, and produce structured outputs reliably.',
-    tools: ['LangChain', 'LangGraph', 'OpenAI API', 'Claude API', 'Supabase'],
+    tools: ['OpenAI API', 'Claude Code', 'Supabase', 'Claude Agents', 'Claude API'],
     hasApps: true,
     appCount: 3,
   },
@@ -50,7 +50,7 @@ export const journeyStages: JourneyStage[] = [
     period: 'Early 2026',
     description:
       'Discovered that writing detailed specs before prompting AI produces dramatically better results. The PM skill of clear requirements became a coding superpower.',
-    tools: ['Claude', 'Cursor', 'TypeSpec', 'OpenAPI', 'Zod'],
+    tools: ['Claude', 'Spec Kit', 'Cursor', 'TypeSpec', 'OpenAPI'],
     hasApps: true,
     appCount: 1,
   },

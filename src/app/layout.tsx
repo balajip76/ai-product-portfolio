@@ -23,12 +23,12 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Balaji — AI-Native Product Leader',
   description:
-    '12 months. 7 methodologies. 13 apps shipped. A showcase of AI-native product development by Balaji.',
+    '12 months. 7 stages of learning. 13 prototypes built. A showcase of AI-native product development by Balaji.',
   metadataBase: new URL('https://ai-prod-portfolio.neyar.one'),
   openGraph: {
     title: 'Balaji — AI-Native Product Leader',
     description:
-      '12 months. 7 methodologies. 13 apps shipped. A showcase of AI-native product development.',
+      '12 months. 7 stages of learning. 13 prototypes built. A showcase of AI-native product development.',
     url: 'https://ai-prod-portfolio.neyar.one',
     siteName: 'Balaji Portfolio',
     type: 'website',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Balaji — AI-Native Product Leader',
-    description: '12 months. 7 methodologies. 13 apps shipped.',
+    description: '12 months. 7 stages of learning. 13 prototypes built.',
   },
 };
 

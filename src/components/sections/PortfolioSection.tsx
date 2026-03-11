@@ -30,7 +30,7 @@ export default function PortfolioSection() {
         <div className="mb-12">
           <SectionHeading
             overline="The Work"
-            title="13 Apps Shipped"
+            title="13 Prototypes Built"
             subtitle="From quick vibe-coded experiments to structured AI-orchestrated products."
           />
         </div>

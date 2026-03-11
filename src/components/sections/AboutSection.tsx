@@ -8,12 +8,12 @@ const socials = [
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/balajip',
+    href: 'https://www.linkedin.com/in/balajiponnuswamy/',
     Icon: LinkedInIcon,
   },
   {
     label: 'Email',
-    href: 'mailto:hello@neyar.one',
+    href: 'mailto:balaji.ponnuswamy@gmail.com',
     Icon: MailIcon,
   },
 ];
@@ -37,7 +37,7 @@ export default function AboutSection() {
             I believe the most impactful PMs of the next decade will be the ones who can close the loop between product thinking and working software. AI is making that possible for the first time.
           </p>
           <p>
-            This site documents the journey — seven methodologies, thirteen shipped apps, and the hard-won lessons that came from doing the work myself.
+            This site documents the journey — seven stages of learning, thirteen prototypes built, and the hard-won lessons that came from doing the work myself.
           </p>
         </div>
 

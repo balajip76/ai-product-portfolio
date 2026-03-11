@@ -5,7 +5,7 @@ export const apps: App[] = [
   {
     id: 'aasaan',
     name: 'Aasaan',
-    description: 'A simple, intuitive productivity app built through pure prompting — no hand-written code.',
+    description: 'A simple prototype of a Product Management Learning platform built through pure prompting - no hand-written code.',
     stageSlug: 'vibe-coding',
     stageLabel: 'Vibe Coding',
     liveUrl: 'https://aasaan.neyar.one/',
@@ -14,7 +14,7 @@ export const apps: App[] = [
   {
     id: 'level-us-up',
     name: 'Level Us Up',
-    description: 'Gamified habit tracker for couples, where shared goals unlock new levels together.',
+    description: 'Gamified social consciousness app to shape the next generation.',
     stageSlug: 'vibe-coding',
     stageLabel: 'Vibe Coding',
     liveUrl: 'https://levelusup.neyar.one/auth',
@@ -31,8 +31,8 @@ export const apps: App[] = [
   },
   {
     id: 'aspire-ai',
-    name: 'AspireAI',
-    description: 'AI-powered career coaching platform that helps users map skills to career aspirations.',
+    name: 'AspireUnbound',
+    description: 'AI First Agentic Banking prototype.',
     stageSlug: 'vibe-coding',
     stageLabel: 'Vibe Coding',
     liveUrl: 'https://aspireai.aspireunbound.org/about',
@@ -69,7 +69,7 @@ export const apps: App[] = [
   {
     id: 'pingtoprod',
     name: 'PingToProd',
-    description: 'End-to-end uptime monitoring tool with AI-generated incident summaries and alerting.',
+    description: 'An AI-powered product leader who orchestrates a team of agents to research, design, build, secure, and ship your product.',
     stageSlug: 'ai-orchestration',
     stageLabel: 'AI Orchestration',
     liveUrl: 'https://pingtoprod.neyar.one/presentation.html',
@@ -77,8 +77,8 @@ export const apps: App[] = [
   },
   {
     id: 'pagematch',
-    name: 'PageMatch',
-    description: 'AI-powered landing page analyzer that matches page copy to target audience intent.',
+    name: 'Book Recommender',
+    description: 'A book recommendation engine based on your personal preferences.',
     stageSlug: 'ai-orchestration',
     stageLabel: 'AI Orchestration',
     liveUrl: 'https://project-orpin-zeta-28.vercel.app/',
@@ -97,7 +97,7 @@ export const apps: App[] = [
   {
     id: 'ev-charge-smart',
     name: 'EV Charge Smart',
-    description: 'EV charging optimizer that recommends when and where to charge based on price and range.',
+    description: 'At a glance view of EV charging costs vs. gas cost across all 50 states.',
     stageSlug: 'spec-driven',
     stageLabel: 'Spec-Driven',
     liveUrl: 'https://ev-charge-smart.vercel.app/',
