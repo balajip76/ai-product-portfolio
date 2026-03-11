@@ -44,7 +44,7 @@ export default function PortfolioSection() {
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all cursor-pointer ${
                 activeFilter === value
                   ? 'bg-charcoal-darker text-mint-white shadow-md'
-                  : 'bg-charcoal-darker/10 text-charcoal hover:bg-charcoal-darker/20'
+                  : 'bg-charcoal-darker/10 text-charcoal hover:bg-charcoal-darker/20 hover:text-charcoal-darker'
               }`}
             >
               {label}

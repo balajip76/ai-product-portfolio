@@ -4,11 +4,11 @@ import { ArrowRightIcon } from '@/components/icons';
 
 export default function AppCard({ app }: { app: App }) {
   return (
-    <div className="group bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col gap-4 hover:border-steel-teal/50 hover:bg-white/8 transition-all duration-200">
+    <div className="group bg-charcoal-dark border border-charcoal-light/20 rounded-2xl p-6 flex flex-col gap-4 hover:border-steel-teal/50 hover:bg-charcoal transition-all duration-200">
       <div className="flex items-start justify-between gap-3">
         <MethodologyBadge slug={app.stageSlug} label={app.stageLabel} small />
         {app.category && (
-          <span className="text-xs text-charcoal-light font-mono bg-charcoal/20 px-2 py-0.5 rounded">
+          <span className="text-xs text-mint-white/50 font-mono bg-charcoal-darker/60 px-2 py-0.5 rounded">
             {app.category}
           </span>
         )}

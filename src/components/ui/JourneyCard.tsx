@@ -62,7 +62,7 @@ export default function JourneyCard({ stage, isLeft }: JourneyCardProps) {
       <div className="lg:hidden flex gap-4 items-start">
         <div className="flex flex-col items-center">
           {dot}
-          <div className="w-0.5 bg-steel-teal/20 flex-1 mt-2 min-h-8" />
+          <div className="w-0.5 bg-steel-teal/20 flex-1 mt-2 min-h-12" />
         </div>
         <div className="flex-1 pb-2">{card}</div>
       </div>

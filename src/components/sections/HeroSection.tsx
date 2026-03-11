@@ -23,7 +23,7 @@ export default function HeroSection() {
         </p>
 
         {/* Name */}
-        <h1 className="font-display text-6xl sm:text-7xl md:text-8xl font-extrabold text-mint-white tracking-tight mb-6 leading-none">
+        <h1 className="font-display text-5xl sm:text-6xl md:text-8xl font-extrabold text-mint-white tracking-tight mb-6 leading-none">
           BALAJI
         </h1>
 
