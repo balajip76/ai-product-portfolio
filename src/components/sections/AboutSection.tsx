@@ -11,7 +11,7 @@ export default function AboutSection() {
 
         <div className="space-y-5 text-mint-white/70 leading-relaxed">
           <p>
-            I&apos;m an Product Leader who spent the last year building, breaking, and rebuilding products at the frontier of AI tooling. Not as a hobby — as a deliberate exploration of what AI changes for product management.
+            I&apos;m a Product Leader who spent the last year building, breaking, and rebuilding products at the frontier of AI tooling. Not as a hobby — as a deliberate exploration of what AI changes for product management.
           </p>
           <p>
             I believe the most impactful PMs of the next decade will be the ones who can close the loop between product thinking and working software. AI is making that possible for the first time.
