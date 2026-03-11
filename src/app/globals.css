@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color palette */
+  --color-steel-teal: #7DB5C0;
+  --color-steel-teal-light: #9ECDD6;
+  --color-steel-teal-dark: #5E96A2;
+  --color-mint-white: #E8F9F6;
+  --color-mint-white-dark: #CFF0EB;
+  --color-warm-beige: #C9BAB4;
+  --color-warm-beige-dark: #B0A09A;
+  --color-dusty-mauve: #7A5569;
+  --color-dusty-mauve-dark: #5D3D52;
+  --color-charcoal: #454446;
+  --color-charcoal-light: #636164;
+  --color-charcoal-dark: #2D2C2E;
+  --color-charcoal-darker: #1A191B;
+
+  /* Typography */
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-plus-jakarta), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Account for sticky navbar offset on all section anchors */
+section[id] {
+  scroll-margin-top: 4rem;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1A191B;
+}
+::-webkit-scrollbar-thumb {
+  background: #7DB5C0;
+  border-radius: 3px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #1A191B;
+  color: #E8F9F6;
+}
