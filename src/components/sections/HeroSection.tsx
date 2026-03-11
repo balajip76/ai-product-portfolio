@@ -40,7 +40,7 @@ export default function HeroSection() {
               Hi, I&apos;m Balaji
             </h2>
             <p className="text-mint-white/70 leading-relaxed mb-4 max-w-md">
-              I&apos;m an AI-Native Product Leader who spent the last year building, breaking, and rebuilding products at the frontier of AI tooling — not as a hobby, but as a deliberate exploration of what AI changes for product management.
+              I&apos;m an Product Leader who spent the last year building, breaking, and rebuilding products at the frontier of AI tooling — not as a hobby, but as a deliberate exploration of what AI changes for product management.
             </p>
             <p className="text-mint-white/60 text-sm leading-relaxed max-w-md">
               I believe the most impactful PMs of the next decade will be the ones who can close the loop between product thinking and working software. AI is making that possible for the first time.
@@ -75,10 +75,10 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* RIGHT — AI-Native Product Leader */}
+          {/* RIGHT — Product Leader */}
           <div className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left">
             <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.3em] text-steel-teal mb-6">
-              AI-Native Product Leader
+              Product Leader
             </p>
 
             <p className="text-lg sm:text-xl text-warm-beige max-w-xl mb-10 leading-relaxed">
