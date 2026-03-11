@@ -21,12 +21,12 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Balaji - A Product Leader's AI Learning Journey',
+  title: "Balaji - A Product Leader's AI Learning Journey",
   description:
     '12 months. 7 stages of learning. 13 prototypes built. A showcase of AI-native product development by Balaji.',
   metadataBase: new URL('https://ai-prod-portfolio.neyar.one'),
   openGraph: {
-    title: 'Balaji - A Product Leader's AI Learning Journey',
+    title: "Balaji - A Product Leader's AI Learning Journey",
     description:
       '12 months. 7 stages of learning. 13 prototypes built. A showcase of AI-native product development.',
     url: 'https://ai-prod-portfolio.neyar.one',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Balaji - A Product Leader's AI Learning Journey',
+    title: "Balaji - A Product Leader's AI Learning Journey",
     description: '12 months. 7 stages of learning. 13 prototypes built.',
   },
 };
