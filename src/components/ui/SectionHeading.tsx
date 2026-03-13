@@ -14,11 +14,11 @@ export default function SectionHeading({ overline, title, subtitle, light = fals
           {overline}
         </p>
       )}
-      <h2 className={`font-display text-3xl sm:text-4xl font-bold mb-4 ${light ? 'text-mint-white' : 'text-charcoal-darker'}`}>
+      <h2 className={`font-display text-3xl sm:text-4xl font-bold mb-4 ${light ? 'text-charcoal-darker' : 'text-charcoal-darker'}`}>
         {title}
       </h2>
       {subtitle && (
-        <p className={`text-lg max-w-2xl ${center ? 'mx-auto' : ''} ${light ? 'text-mint-white/70' : 'text-charcoal'}`}>
+        <p className={`text-lg max-w-2xl ${center ? 'mx-auto' : ''} ${light ? 'text-charcoal-dark' : 'text-charcoal'}`}>
           {subtitle}
         </p>
       )}
